@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "album_categories",
+  "info": {
+    "singularName": "album-category",
+    "pluralName": "album-categories",
+    "displayName": "AlbumCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "imgs": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
