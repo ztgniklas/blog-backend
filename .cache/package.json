@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "@strapi/admin@4.2.2",
+      "/root/blog-backend"
+    ]
+  ],
   "_from": "@strapi/admin@4.2.2",
   "_id": "@strapi/admin@4.2.2",
   "_inBundle": false,
@@ -46,9 +52,8 @@
     "/@strapi/strapi"
   ],
   "_resolved": "https://registry.npmjs.org/@strapi/admin/-/admin-4.2.2.tgz",
-  "_shasum": "9ea2945f590a503cd25a6c9955f35445edbc8921",
-  "_spec": "@strapi/admin@4.2.2",
-  "_where": "D:\\projects\\blog-backend\\node_modules\\@strapi\\strapi",
+  "_spec": "4.2.2",
+  "_where": "/root/blog-backend",
   "author": {
     "name": "Strapi Solutions SAS",
     "email": "hi@strapi.io",
@@ -57,7 +62,6 @@
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@babel/core": "7.16.7",
     "@babel/plugin-transform-runtime": "7.16.7",
@@ -157,7 +161,6 @@
     "webpackbar": "5.0.0-3",
     "yup": "^0.32.9"
   },
-  "deprecated": false,
   "description": "Strapi Admin",
   "devDependencies": {
     "duplicate-dependencies-webpack-plugin": "0.2.0",
